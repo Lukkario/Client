@@ -323,7 +323,7 @@ void ResultsPage::initializePage()
             tabWidget->addTab(steamScrollArea, tr("Steam"));
         }
 
-        if (field("originFound").toBool())
+        if (false)
         {
             originScrollArea = new QScrollArea();
             originViewport = new QWidget();
@@ -361,7 +361,7 @@ void ResultsPage::initializePage()
             tabWidget->addTab(originScrollArea, "Origin");
         }
 
-        if (field("uplayFound").toBool())
+        if (false)
         {
             uplayLayout = new QGridLayout();
             uplayScrollArea = new QScrollArea();
